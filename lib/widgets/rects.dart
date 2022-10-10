@@ -14,6 +14,8 @@ class MyRects extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(40),
             color: const Color.fromARGB(255, 4, 31, 90),
+            image: const DecorationImage(
+                image: AssetImage("assets/night.jpg"), fit: BoxFit.cover),
           ),
           child: SizedBox(
             width: 140,
